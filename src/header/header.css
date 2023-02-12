@@ -1,0 +1,17 @@
+.header{
+  position: fixed;
+  z-index: 2;
+}
+
+.headerItem{
+  height: 50px;
+  background: rgba(255, 255, 255, .9) ;
+  color: #11062B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  height: 40px;
+}

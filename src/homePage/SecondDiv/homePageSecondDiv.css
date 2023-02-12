@@ -1,0 +1,40 @@
+.secondDivItem{
+    background-color: #2B959D;
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.secondDivPic{
+    height:850px ;
+}
+
+#secondAnti{
+    margin-top: 10px;
+}
+
+.secondDivText{
+    font-size: 50px;
+    color: white;
+}
+
+.secondDivText:hover{
+    text-decoration: underline ;
+    text-decoration-thickness: 3px; 
+}
+
+#secondYoga{
+    justify-content: flex-start;
+}
+
+.secondOrange{
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: #EF892E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

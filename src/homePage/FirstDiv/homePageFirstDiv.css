@@ -1,0 +1,21 @@
+.firstDivItem{
+    background-color: white;
+    height: 750px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.firstDivText{
+    margin-top: 75px;
+    font-size: 50px;
+    color: #2B959D;
+}
+
+.firstDivText:hover{
+    text-decoration: underline ;
+    text-decoration-thickness: 3px; 
+}
