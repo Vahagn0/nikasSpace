@@ -1,11 +1,11 @@
 .header{
   position: fixed;
   z-index: 2;
+  padding: 0;
 }
 
 .headerItem{
   height: 50px;
-  background: rgba(255, 255, 255, .9) ;
   color: #11062B;
   display: flex;
   justify-content: center;
@@ -15,4 +15,46 @@
 
 .logo{
   height: 40px;
+  height: 50px;
+  color: #11062B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "AQUINO-DEMO";
+}
+.hamburgerDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 576px){
+  .headerText{
+    display: none;
+  }
+}
+
+@media (min-width: 1200px){
+  #hamburgerIcon{
+    display: none;
+  }
+}
+
+.dropdown{
+  margin-top: 47px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #EF892E;
+  position: fixed;
+  padding-left: 30px;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dropdownOption{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
 }
