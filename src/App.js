@@ -1,3 +1,4 @@
+import './fonts/AQUINO-DEMO.TTF';
 import './header/header.css';
 import "./homePage/FirstDiv/homePageFirstDiv.css"
 import "./homePage/SecondDiv/homePageSecondDiv.css"

@@ -10,6 +10,10 @@
     height:850px ;
 }
 
+.secondDivPicCorner{
+    height:850px ;
+}
+
 #secondAnti{
     margin-top: 10px;
 }
@@ -17,6 +21,7 @@
 .secondDivText{
     font-size: 50px;
     color: white;
+    font-family: 'AQUINO-DEMO';
 }
 
 .secondDivText:hover{
@@ -37,4 +42,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.secondOrangeCorner{
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: #EF892E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 576px){
+    .secondOrangeCorner{
+        display: none;
+    }
+
+    .secondDivPicCorner{
+        display:none ;
+    }
 }
