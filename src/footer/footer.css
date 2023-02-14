@@ -1,0 +1,35 @@
+.footerItem{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerPic{
+    height: 150px;
+}
+
+.footerText{
+    margin-top: 10px;
+}
+
+#contactInstagram{
+    height: 80px;
+}
+
+#contactFacebook{
+    height: 45px;
+}
+
+#contactMail{
+    height: 180px;
+}
+
+@media (max-width: 1200px){
+   .footerItem{
+    height: 200px;
+    background-color: white;
+   }
+}

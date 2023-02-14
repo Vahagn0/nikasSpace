@@ -27,13 +27,13 @@
   justify-content: flex-end;
 }
 
-@media (max-width: 576px){
+@media (max-width: 992px){
   .headerText{
     display: none;
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 992px){
   #hamburgerIcon{
     display: none;
   }

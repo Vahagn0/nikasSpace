@@ -19,23 +19,23 @@ function Header({showMenu,setShowMenu}){
 
     return(
         <Grid container spacing={1} className="header" sx={{ background: headerDivColor  }}>
-            <Grid item md={4} xs={0} className="headerItem"></Grid>
-            <Grid item md={1} xs={4} id="logo">
+            <Grid item xl={4} lg={4} xs={0} className="headerItem"></Grid>
+            <Grid item xl={1} lg={1} xs={4} id="logo">
                 {!showMenu && 
                     <img src="Logo.png" className="logo"/>
                 }
             </Grid>
-            <Grid item md={1} xs={0} className="headerItem">
+            <Grid item xl={1} lg={1} xs={0} className="headerItem">
                 <span className="headerText">About us</span>
             </Grid>
-            <Grid item md={1} xs={0} className="headerItem">
+            <Grid item xl={1} lg={1} xs={0} className="headerItem">
                 <span className="headerText">Schedul</span>
             </Grid>
-            <Grid item md={1} xs={0} className="headerItem" id="aboutUs">
+            <Grid item xl={1} lg={1} xs={0} className="headerItem" id="aboutUs">
                 <span className="headerText"> trainers</span>
             </Grid>
-            <Grid item md={4} xs={0} className="headerItem" ></Grid>
-            <Grid item md={0} xs={6.5} className="hamburgerDiv">
+            <Grid item xl={4} lg={4} xs={0} className="headerItem" ></Grid>
+            <Grid item xl={0} lg={0} xs={6.5} className="hamburgerDiv">
                     <div id="hamburgerIcon">
                          <Hamburger color={hamburgerIconColor} duration={0.3} onToggle={()=>{
                         setShowMenu(!showMenu)
