@@ -24,7 +24,18 @@
 }
 
 #contactMail{
-    height: 180px;
+    height: 100px;
+    margin-right: 12px;
+}
+
+#contactText{
+    font-size: 40px;
+}
+
+.contactItem{
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 1200px){
@@ -32,4 +43,10 @@
     height: 200px;
     background-color: white;
    }
+
+   #contactText{
+    font-size: 30px;
+    align-items: center;
+}
+   
 }
