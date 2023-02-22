@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "AQUINO-DEMO";
+  font-family: 'Aquino', sans-serif
 }
 
 .logo{
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "AQUINO-DEMO";
+  font-family: 'Aquino', sans-serif
 }
 .hamburgerDiv{
   display: flex;
@@ -55,6 +55,6 @@
 .dropdownOption{
   font-size: 30px;
   color: white;
-  font-weight: bold;
   margin: 10px;
+  font-family: 'Aquino', sans-serif
 }

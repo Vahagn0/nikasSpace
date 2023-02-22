@@ -21,7 +21,7 @@
 .secondDivText{
     font-size: 50px;
     color: white;
-    font-family: 'AQUINO-DEMO';
+    font-family: 'Aquino', sans-serif
 }
 
 .secondDivText:hover{

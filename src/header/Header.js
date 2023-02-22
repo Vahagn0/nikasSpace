@@ -26,7 +26,7 @@ function Header({showMenu,setShowMenu}){
                 }
             </Grid>
             <Grid item xl={1} lg={1} xs={0} className="headerItem">
-                <span className="headerText">About us</span>
+                <span className="headerText">AbOut us</span>
             </Grid>
             <Grid item xl={1} lg={1} xs={0} className="headerItem">
                 <span className="headerText">Schedul</span>
