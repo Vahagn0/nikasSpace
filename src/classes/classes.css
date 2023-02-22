@@ -1,0 +1,22 @@
+.classesDiv{
+    margin-top: 60px;
+}
+
+.classesRow{
+    background-color: white;
+    height: 550px ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.classDiv{ 
+    display: flex;
+    color: #11062B;
+    height: 500px;
+    margin-left: 10px;
+    background-color: #EF892E;
+}
+
+.classesPic{
+    height: 500px;
+}

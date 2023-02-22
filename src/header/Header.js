@@ -1,8 +1,11 @@
 import { Grid } from "@mui/material"
 import { Squeeze as Hamburger } from 'hamburger-react'
 import { useState,useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 
 function Header({showMenu,setShowMenu}){
+
+    const navigate = useNavigate()
     const [color,setColor] = useState(true)
     const [headerDivColor,setHeaderDivsColor] = useState("rgba(255, 255, 255, .9)" )
     const [hamburgerIconColor,setHamburgerIconColor] = useState("#EF892E")
@@ -22,7 +25,7 @@ function Header({showMenu,setShowMenu}){
             <Grid item xl={4} lg={4} xs={0} className="headerItem"></Grid>
             <Grid item xl={1} lg={1} xs={4} id="logo">
                 {!showMenu && 
-                    <img src="Logo.png" className="logo"/>
+                    <img src="Logo.png" className="logo" onClick={()=> navigate("/")}/>
                 }
             </Grid>
             <Grid item xl={1} lg={1} xs={0} className="headerItem">
